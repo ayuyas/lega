@@ -14,7 +14,7 @@ on:
     paths-ignore:
       - '**/modules/web/**'
   workflow_run:
-    workflows: [Build Web]
+    #workflows: [Build Web]
     branches: [master]
     types:
       - completed
